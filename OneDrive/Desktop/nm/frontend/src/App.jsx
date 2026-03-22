@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-const API = 'https://notes-app-backend-rxxxx.vercel.app/api/notes';
+const API = 'https://notes-app-backend-9hgf.vercel.app/api/notes';
 function App() {
   const [notes, setNotes] = useState([]);
   const [title, setTitle] = useState('');
